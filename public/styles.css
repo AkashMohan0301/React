@@ -11,4 +11,12 @@ h1{
 }
 
 
+.logo{
+    font-family: Anton;
+    font-size: 40px;
+}
 
+.inputs input{
+    font-size: 20px;
+    margin: 20px 0px;
+}

@@ -3,7 +3,7 @@ import React,{Component} from "react";
 
 
     // Class based Components  in class we works with properties an methods
-    
+
     // let styles = {
     //     h1: {
     //     background : "#03a9fa",
@@ -25,10 +25,11 @@ import React,{Component} from "react";
             return (
               
                     <React.Fragment>
+                    
 
                           
-                    <h1 style={styles.h1}>Welcome</h1>
-                    <div>
+                    <h1 className="logo">Welcome</h1>
+                    <div className="inputs">
                         Input : 
 
                         <input type="text" />
