@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom"; // to conect index.html file with react component classes 
 
 import Header from "./components/header";
+import './styles/styles.css'
 
 // react component
 const App = () => {
