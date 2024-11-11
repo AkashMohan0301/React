@@ -1,6 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom"; // to conect index.html file with react component classes 
 
+import Header from "./components/header";
+
 // react component
 const App = () => {
 
@@ -10,13 +12,18 @@ const App = () => {
 
 return (
 
-<React.Fragment>
+/* <React.Fragment>
 
     <h1 className="title">Hello world!</h1>
     <p className="sub">Hello</p>
     <h1>Hello</h1>
     <p>Hello</p>
-</React.Fragment>
+</React.Fragment> */
+
+<div>
+    <Header></Header>
+</div>
+
 )
 }
 
