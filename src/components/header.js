@@ -1,26 +1,33 @@
-import React from "react";
 
-const Header = () => {
+import React,{Component} from "react";
 
-    const getTheYear = () =>{
-        const newdate = new Date();
-        return newdate.getFullYear();
-        // return newdate.toLocaleDateString();
+
+    // Class based Components  in class we works with properties an methods
+
+    class Header extends Component {
+
+        render(){
+            return (
+              
+                    <React.Fragment>
+
+                          
+                    <h1>Welcome</h1>
+                    <div>
+                        Input : 
+
+                        <input type="text" />
+                        
+                    </div>
+
+                    </React.Fragment>
+               
+            )
+        }
 
     }
+    
 
 
-
-    return (
-        <header>
-            <h1>My React Apps</h1>
-            <div>
-                The Date is {getTheYear()}     
-                <p>Sum = {5+5}</p>
-                
-            </div>
-        </header>
-    )
-}
 
 export default Header;
